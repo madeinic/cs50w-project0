@@ -2,15 +2,23 @@
   background-color: orange;
 }
 
-table {
+table td {
   font: "Quicksand";
   text-transform: uppercase;
-  border: 2px solid orange;
+  border: 2px solid black;
+}
+table tr {
+  font: "Quicksand";
+  font-weight: bold;
+  border: 2px solid black;
 }
 
-h5 {
+div h5 {
   font-weight: bold;
   font-family: "Quicksand";
+}
+div p {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav-item {

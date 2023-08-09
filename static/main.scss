@@ -7,14 +7,27 @@ $strong: bold;
 }
 
 table {
-  font: $fontstr;
-  text-transform: $titles;
-  border: 2px solid orange;
+    td {
+        font: $fontstr;
+        text-transform: $titles;
+        border: 2px solid black;
+    }
+    tr {
+        font: $fontstr;
+        font-weight: $strong;
+        border: 2px solid black;
+    }
 }
 
+div {
 h5 {
     font-weight: $strong;
     font-family: $fontstr;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
 }
 
 .nav-item {
