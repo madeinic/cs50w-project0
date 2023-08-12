@@ -1,22 +1,20 @@
+div h5, table tr, table td {
+  font: "Quicksand";
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .table-orange {
   background-color: orange;
 }
 
 table td {
-  font: "Quicksand";
-  text-transform: uppercase;
   border: 2px solid black;
 }
 table tr {
-  font: "Quicksand";
-  font-weight: bold;
   border: 2px solid black;
 }
 
-div h5 {
-  font-weight: bold;
-  font-family: "Quicksand";
-}
 div p {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -29,16 +27,20 @@ div p {
   background-color: orange;
 }
 
-table {
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-}
-
 .card:hover {
   background-color: rgb(207, 201, 201);
 }
 
 .card:active {
   background-color: gray;
+}
+
+.navbar-toggler-icon {
+  color: black;
+}
+
+@media (max-width: 990px) {
+  #nav-btn {
+    background-color: #FFA500;
+  }
 }/*# sourceMappingURL=main.css.map */

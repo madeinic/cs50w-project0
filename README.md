@@ -12,4 +12,4 @@ Para el navbar y las cards se utilizó una plantilla de bootstrap y se editó so
 
 Se hizo un footer sencillo donde se dan los creditos de autor y el nombre de la página.
 
-En la carpeta static existe el archivo main.css y main.scss donde se crearon propiedades css con selectores de clase y id, en el archivo scss se declararon variables para poderlas usar dentro de ciertas clases y propiedades.
+En la carpeta static existe el archivo main.css y main.scss donde se crearon propiedades css con selectores de clase y id, en el archivo scss se declararon variables para poderlas usar dentro de ciertas clases y propiedades, también se utilizo herencia para utilizar el mismo grosor y tipo de letra en varias partes de la pagina, , varios anidamientos para respetar el orden de las propiedades y por último se utilizó un selector responsivo media query con el navbar para que se aplique un color diferente en pantalla mas pequeññas que no se lograba distinguir.

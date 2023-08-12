@@ -1,6 +1,12 @@
-$fontstr: 'Quicksand';
-$titles: uppercase;
-$strong: bold;
+    $fontstr: 'Quicksand';
+    $titles: uppercase;
+    $strong: bold;
+
+%strong-letter-titles {
+    font: $fontstr;
+    text-transform: $titles;
+    font-weight: $strong;
+}
 
 .table-orange {
     background-color: orange;
@@ -8,21 +14,18 @@ $strong: bold;
 
 table {
     td {
-        font: $fontstr;
-        text-transform: $titles;
+        @extend %strong-letter-titles;
         border: 2px solid black;
     }
     tr {
-        font: $fontstr;
-        font-weight: $strong;
+        @extend %strong-letter-titles;
         border: 2px solid black;
     }
 }
 
 div {
 h5 {
-    font-weight: $strong;
-    font-family: $fontstr;
+    @extend %strong-letter-titles;    
 }
 
 p {
@@ -38,13 +41,6 @@ p {
     background-color: orange;
 }
 
-table {
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-}
-
-
 .card:hover {
     background-color: rgb(207, 201, 201);
   }
@@ -52,3 +48,14 @@ table {
 .card:active {
     background-color: gray;
   }
+
+.navbar-toggler-icon {
+    color: black;
+  }
+  
+  @media(max-width:990px){
+    #nav-btn{
+      background-color: #FFA500;
+    }
+  }
+  
